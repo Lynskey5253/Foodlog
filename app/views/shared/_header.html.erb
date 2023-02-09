@@ -3,22 +3,15 @@
   <div class="hero-head">
     <nav class="navbar">
       <div class="container">
-        <div class="navbar-brand">
-          <%= link_to root_path, class: "navbar-item" do %>
-            <span class="has-text-weight-bold is-size-4 ml-4">Foodlog</span>
-          <% end %>
-          <span class="navbar-burger" data-target="navbarMenuHeroA">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-        </div>
-        <div id="navbarMenuHeroA" class="navbar-menu">
-          <div class="navbar-end">
-                <span class="navbar-item">
-                    <%= button_to "Create new entry", new_entry_path, class: "button is-success" %>
-                </span>
+        <div class="nav-create-brand">
+          <div class="navbar-brand">
+            <%= link_to root_path, class: "navbar-item" do %>
+              <span class="has-text-weight-bold is-size-4 ml-4">Foodlog</span>
+            <% end %>
           </div>
+          <span class="nav-create">
+            <%= button_to "Create new entry", new_entry_path, class: "button is-success" %>
+          </span>
         </div>
       </div>
     </nav>

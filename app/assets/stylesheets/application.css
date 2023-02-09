@@ -24,3 +24,15 @@
 .column3{
     margin-top: 32px;
 }
+
+.nav-create{
+    padding-top: 8px;
+}
+
+.nav-create-brand{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 16px;
+}
